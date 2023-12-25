@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Account History Results</title>
+        <link rel="stylesheet" href="../static/style.css">
+      </head>
+      <body>
+        <h1>Account History Results</h1>
+      
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Action ID</th>
+              <th>Type</th>
+              <th>Date</th>
+              <th>Old Balance</th>
+              <th>New Balance</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for account in search_history %}
+            <tr>
+              <td>{{ account.HID }}</td>
+              <td>{{ account.Action }}</td>
+              <td>{{ account.Date }}</td>
+              <td>{{ account.OldBalance }}</td>
+              <td>{{ account.NewBalance }}</td> </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </body>
+      </html>
