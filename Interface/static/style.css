@@ -1,0 +1,65 @@
+body {
+    font-family: sans-serif;
+    margin: 40px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    margin-top: 40px;
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  table {
+    border-collapse: collapse; /* Removes extra spacing between cells */
+    width: 100%; /* Ensures table takes full width */
+    margin-bottom: 20px; /* Adds spacing after table */
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left; /* Aligns text to the left */
+    border: 1px solid #ddd; /* Adds light gray border */
+  }
+  
+  th {
+    background-color: #f2f2f2; /* Light gray background for headers */
+  }
+  
+  .back-link {
+    text-decoration: none; /* Removes underline from link */
+    color: #333; /* Sets link color to dark gray */
+    margin-top: 20px; /* Adds spacing above link */
+  }
