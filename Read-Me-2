@@ -1,0 +1,1 @@
+Welcome to the Bank Database Project repository! This project focuses on creating a robust relational database for a bank, complete with tables, dummy data, stored procedures, triggers, and transactions. Additionally, a simple interface using Flask, HTML, and CSS has been developed to interact with the database and execute queries.
